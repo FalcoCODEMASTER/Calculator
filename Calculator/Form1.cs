@@ -93,7 +93,7 @@ namespace Calculator
         //When plus button is clicked
         private void buttonPlus_Click(object sender, EventArgs e)
         {
-            //Select case Multiplay
+            //Select case Plus
             SelectedCase = 1;
 
             //Confirm first input finished
@@ -108,10 +108,10 @@ namespace Calculator
         }
 
 
-        //When Minus button is clicke
+        //When Minus button is clicked
         private void buttonMin_Click(object sender, EventArgs e)
         {
-            //Select case Multiplay
+            //Select case Minus
             SelectedCase = 2;
 
             //Confirm first input finished
@@ -128,7 +128,7 @@ namespace Calculator
         //When divide button is clicked
         private void buttonDeel_Click(object sender, EventArgs e)
         {
-            //Select case Multiplay
+            //Select case Divide
             SelectedCase = 3;
 
             //Confirm first input finished
@@ -145,7 +145,7 @@ namespace Calculator
         //When multiply button is clicked
         private void buttonKeer_Click(object sender, EventArgs e)
         {
-            //Select case Multiplay
+            //Select case Multiply
             SelectedCase = 4;
 
             //Confirm first input finished
